@@ -1,1 +1,11 @@
-*~ (ignorowanie plików zakończonych ~)
+#Linie zaczynające się od '#' są traktowane jako komentarze.
+#Ignoruj pośrednie pliki LaTeX,
+*.aux
+*.bbl
+*.blg
+*.log
+*.tex
+*.toc
+*.out
+#ukośnik określa najwyższy poziom w repozytorium
+/LaTeXrepo
