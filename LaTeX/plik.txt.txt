@@ -1,0 +1,258 @@
+\documentclass[12pt,a4paper]{article}
+ 
+\usepackage{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{wrapfig} 
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+
+\title{\textbf{Matematycznie}}
+\author{\textit{Mariusz Mazepa}}
+\date{22.12.2014}
+\linespread{1.2}
+ 
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Dokument ten prezentuje nie tyle mo¿liwoœci systemu \LaTeX, co bardziej umiejêtnoœci autora dokumentu w dzia³aniu w systemie \LaTeX. Opieraæ siê one bêd¹ na ró¿nych wzorach matematycznych, równaniach, macierzach i tym podobnych. Znajd¹ siê tu równie¿ ilustracje, tabele i inne rzeczy, które odnosz¹ siê w jakiœ sposób do nazywanej przez wielu matk¹ nauk œcis³ych - matematyki.
+\end{abstract}
+
+\newpage
+
+\section{Wstêp do matematyki}\label{sec:wstep_do_matematyki}
+\textbf{Matematyka} – nauka dostarczaj¹ca narzêdzi do otrzymywania œcis³ych wniosków z przyjêtych za³o¿eñ, zatem dotycz¹ca prawid³owoœci rozumowania. Poniewa¿ œcis³e za³o¿enia mog¹ dotyczyæ najró¿niejszych dziedzin myœli ludzkiej, a musz¹ byæ czynione w naukach œcis³ych, technice a nawet w naukach humanistycznych, zakres matematyki jest szeroki i stale siê powiêksza.
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=70mm]{matematyka.jpg}
+\caption{Matematyczny myœliciel\label{obraz_1}}
+\end{figure}
+
+Wiele dziedzin nauki i technologii, w pewnym momencie zaczyna definiowaæ swoje pojêcia z dostatecznie du¿¹ precyzj¹, aby mo¿na by³o stosowaæ do nich metody matematyczne, co czêsto zapocz¹tkowuje kolejny dzia³ matematyki teoretycznej lub stosowanej. Tak sta³o siê np. z mechanik¹ klasyczn¹, mechanik¹ statystyczn¹, ekonomi¹ (ekonometria), lingwistyk¹ (lingwistyka matematyczna), teori¹ gier, a nawet niektórymi dzia³ami politologii (teoria g³osowañ). Obecnie standardem w naukach eksperymentalnych jest potwierdzanie istnienia obserwowanych zale¿noœci za pomoc¹ metod statystyki, bêd¹cej dzia³em matematyki. Pomaga to odró¿niæ rzeczywiste zale¿noœci od przypadkowej zbie¿noœci. Leonardo da Vinci stwierdzi³ w Traktacie o malarstwie: „¯adne ludzkie badania nie mog¹ byæ nazywane prawdziw¹ nauk¹, jeœli nie mog¹ byæ zademonstrowane matematycznie.”
+
+\newpage
+
+\section{Coœ wiêcej, coœ mniej, ileœ razy wiêcej, ileœ razy mniej...}\label{sec:kalkulacje}
+W matematyce wystêpuje kilka podstawowych oznaczeñ:
+\begin{itemize}
+  \item \textbf{plus} ("+") s³u¿acy do dodawania,
+  \item \textbf{minus} ("-") s³u¿¹cy do odejmowania,
+  \item \textbf{kropka} lub \textbf{x} (w informatyce \textbf{gwiazdka} ("*")) s³u¿¹ce do mno¿enia,
+	\item \textbf{dwukropek} (":") lub \textbf{kreska u³amkowa} (poni¿ej) s³u¿ace do dzielenia ,$$\frac{licznik}{mianownik}$$
+	\item \textbf{"podwójny myœlnik"} ("=") oznaczaj¹cy równoœæ, po którym wystêpuje wynik.
+\end{itemize}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=25mm]{mat.jpg}
+\caption{Oznaczenia matematyczne\label{obraz_2}}
+\end{figure}
+
+Wynik dzia³ania (co najmniej) dwuargumentowego przy u¿yciu któregokolwiek z powy¿szych oznaczeñ równie¿ posiada nazwê, uœciœlaj¹c:
+\begin{itemize}
+  \item wynik dodawania to \textbf{suma},
+  \item wynik odejmowania to \textbf{ró¿nica},
+  \item wynik mno¿enia to \textbf{iloczyn},
+	\item wynik dzielenia to \textbf{iloraz}.
+\end{itemize}
+
+Ale to generalnie wszyscy wiemy, wiêc dalej zajmiemy siê czymœ nieco bardziej z³o¿onym.
+
+\newpage
+
+\section{Przyk³ady wzorów matematycznych}\label{sec:przyklady_wzorów_matematycznych}
+W matematyce istnieje wiele \textbf{wzorów matematycznych}, pos³uguj¹c siê którymi mo¿emy wykonywaæ o wiele bardziej z³o¿one dzia³ania (ni¿ tylko wymienione wczeœniej dodawanie, odejmowanie, mno¿enie i dzielenie) w prostszy i nieco szybszy sposób - oczywiœcie pod warunkiem, ¿e znamy wzory i umiemy siê nimi pos³ugiwaæ.
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=100mm]{useful-formulas.jpg}
+\caption{Wzory matematyczne\label{obraz_3}}
+\end{figure}
+
+Jak to widaæ na powy¿szym obrazku wzorów matematycznych jest wiele. Jest jednak kilka z nich, które ka¿dy szanuj¹cy siê adept matematyki znaæ powinien. Dla przyk³adu:
+\begin{itemize}
+	\item wzór na pole trójk¹ta: $$P=\frac{a*h}{2}$$
+	gdzie \textbf{a} to d³ugoœæ podstawy, \textbf{h} to wysokoœæ trójk¹ta.
+	\item wzór na objêtoœæ szeœcianu: $$a^3$$
+	gdzie \textbf{a} to d³ugoœæ krawêdzi szeœcianu.
+\end{itemize}
+
+\newpage
+
+Istniej¹ te¿ bardziej skomplikowane wzory, które równie¿ warto znaæ, jednak niekoniecznie wszyscy adepci matematyki s¹ wyposa¿eni w tak obszern¹ wiedzê. Dla przyk³adu:
+\begin{itemize}
+	\item jedynka trygonometryczna: $$\sin^2x+\cos^2x=1$$
+	\item symbol Newtona: $${n \choose k}=\frac{n!}{k!*(n-k)!}$$
+	\item objêtoœæ kuli: $$V=\frac{4}{3}*\pi*r^3$$
+\end{itemize}
+
+Takich wzorów jest wiele. Jednak nie sposób wszystkich spamiêtaæ, dlatego te¿ czêsto korzystamy z tablic matematycznych.
+
+\begin{figure}[ht!]
+\centering
+\subfloat[Ok³adka]{\label{obraz_4a}
+\includegraphics[width=30mm, angle=-20]{tablicematematyczne1.jpg}}
+\quad
+\subfloat[Wnêtrze]{\label{obraz_4b}
+\includegraphics[width=60mm, angle=20]{tablicematematyczne2.jpg}}
+\caption{Przyk³adowy egzemplarz ksi¹¿ki z tablicami matematycznymi}
+\label{fig:tablicematematyczne}
+\end{figure}
+
+Warto wiêc, bêd¹c wielbicielem matematyki, zaopatrzyæ siê w jeden chocia¿ egzemplarz tablic matematycznych. Dziêki temu zawsze bêdziemy mieli gdzie zajrzeæ (poza internetem), gdy bêdziemy potrzebowali jakiegoœ konkretnego wzoru.
+
+\newpage
+
+\section{Macierze}\label{sec:macierze}
+\textbf{Macierz} – w matematyce uk³ad liczb, symboli lub wyra¿eñ zapisanych w postaci prostok¹tnej tablicy. Choæ s³owo „macierz” oznacza najczêœciej macierz dwuwskaŸnikow¹, to mo¿liwe jest rozpatrywanie macierzy wielowskaŸnikowych (zob. notacja wielowskaŸnikowa). Macierze jednowskaŸnikowe nazywa siê czêsto wektorami wierszowymi lub kolumnowymi, co wynika z zastosowañ macierzy w algebrze liniowej. W informatyce macierze modeluje siê zwykle za pomoc¹ (najczêœciej dwuwymiarowych) tablic.
+
+
+Dla lepszego naœwietlenia sprawy - poni¿szy uk³ad równañ mo¿na przedstawiæ w postaci macierzy.
+
+$$\left\{\begin{array}{rcl}
+x_1+4x_2+7x_3+3x_4+x_5=0\\
+5x_1+6x_2+2x_3+4x_4=0\\
+x_2+2x_3+11x_4+13x_5=0\\
+x_1+3x_3+4x_4=0\\
+7x_1+11x_2+2x_4+8x_5=0
+\end{array} \right.$$
+
+Macierz ta bêdzie wygl¹da³a nastêpuj¹co:
+
+$$\left[\begin{array}{ccccc}
+1&4&7&3&1\\
+5&6&2&4&0\\
+0&1&2&11&13\\
+1&0&3&4&0\\
+7&11&0&2&8
+\end{array}\right]$$
+
+Z macierzami mo¿na siê "bawiæ" na wiele sposobów, na przyk³ad doprowadzaæ je do postaci schodkowej albo upraszczaæ do satysfakcjonuj¹cej nas formy. Macierze mo¿na dodawaæ, odejmowaæ, mno¿yæ, dzieliæ... dzieje siê to, co prawda, czasem nieco inaczej, ni¿ w przypadku standardowych dzia³añ na liczbach - nie oznacza to jednak, ¿e jest to trudne, przynajmniej przy bli¿szym poznaniu tematu.
+
+\newpage
+
+\section{Tabliczka mno¿enia}\label{sec:tabliczka_mnozenia}
+Teraz siê troszeczkê cofniemy do rzeczy nieco prostszej, jak¹ jest tabliczka mno¿enia. Niby rzecz prosta, niby rzecz ³atwa, jednak nie zawsze i nie dla wszystkich tak oczywista, jak¹ siê zdajê. Dla przyk³adu - tabliczka mno¿enia do 100:
+
+\begin{flushright}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|}
+\hline
+*&1&2&3&4&5&6&7&8&9&10\\
+\hline
+\hline
+1&\textbf{1}&2&3&4&5&6&7&8&9&10\\
+\hline
+2&2&\textbf{4}&6&8&10&12&14&16&18&20\\
+\hline
+3&3&6&\textbf{9}&12&15&18&21&24&27&30\\
+\hline
+4&4&8&12&\textbf{16}&20&24&28&32&36&40\\
+\hline
+5&5&10&15&20&\textbf{25}&30&35&40&45&50\\
+\hline
+6&6&12&18&24&30&\textbf{36}&42&48&54&60\\
+\hline
+7&7&14&21&28&35&42&\textbf{49}&56&63&70\\
+\hline
+8&8&16&24&32&40&48&56&\textbf{64}&72&80\\
+\hline
+9&9&18&27&36&45&54&63&72&\textbf{81}&90\\
+\hline
+10&10&20&30&40&50&60&70&80&90&\textbf{100}\\
+\hline
+\end{tabular}
+\end{flushright}
+
+Nie jest to rzecz specjalnie trudna ani skomplikowana, aczkolwiek to w³aœnie dziêki niej wiêkszoœæ m³odych adeptów matematyki zdobywa umiejêtnoœæ pos³ugiwania siê mno¿eniem, mno¿enia szybszego, a przede wszystkim mno¿enia w pamiêci.
+
+Wielu m³odych ludzi uczêszczaj¹cych do szko³y podstawowej (czasem nie tylko) zawdziêcza swoje dobre oceny zaznajomieniu siê i pe³nemu zrozumieniu dzia³ania tabliczki mno¿enia.
+
+\newpage
+
+Istnieje te¿ wiele alternatywnych metod wyuczenia siê szybszego mno¿enia ni¿ rozpisywanie go na kartce. Jednym z nich jest mno¿enie na palcach, które dzia³a w sposób przedstawiony na poni¿szym obrazku:
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=120mm, angle=15]{mnozenienapalcach.jpg}
+\caption{Sposób mno¿enia na palcach\label{obraz_5}}
+\end{figure}
+
+Na pierwszy rzut oka mo¿e siê to wydawaæ nieco trudne do zrozumienia, jednak po pewnym czasie praktykowania nie trudno o stwierdzenie, ¿e alternatywne sposoby liczenia (szczególnie te, które jesteœmy w stanie "legalnie" wykonywaæ zawsze i wszêdzie, jak ten powy¿ej) mog¹ wielokrotnie ustrzec nas przed z³ymi ocenami.
+
+\newpage
+
+\section{Wielki, cyfrowy X}\label{sec:wielki_cyfrowy_x}
+A teraz coœ na rozluŸnienie - wielki, cyfrowy X, czyli X u³o¿ony z cyfr od 1 do 10.
+
+\begin{tabular}{ccccccccccccccccccc}
+1& & & & & & & & & & & & & & & & & &1\\
+ &2& & & & & & & & & & & & & & & &2& \\
+ & &3& & & & & & & & & & & & & &3& & \\
+ & & &4& & & & & & & & & & & &4& & & \\
+ & & & &5& & & & & & & & & &5& & & & \\
+ & & & & &6& & & & & & & &6& & & & & \\
+ & & & & & &7& & & & & &7& & & & & & \\
+ & & & & & & &8& & & &8& & & & & & & \\
+ & & & & & & & &9& &9& & & & & & & & \\
+ & & & & & & & & &10& & & & & & & & & \\
+ & & & & & & & &9& &9& & & & & & & & \\
+ & & & & & & &8& & & &8& & & & & & & \\
+ & & & & & &7& & & & & &7& & & & & & \\
+ & & & & &6& & & & & & & &6& & & & & \\
+ & & & &5& & & & & & & & & &5& & & & \\
+ & & &4& & & & & & & & & & & &4& & & \\
+ & &3& & & & & & & & & & & & & &3& & \\
+ &2& & & & & & & & & & & & & & & &2& \\
+1& & & & & & & & & & & & & & & & & &1\\
+\end{tabular}
+
+Bardzo ciekawie to wygl¹da i jest doœæ interesuj¹ce, zw³aszcza dlatego, ¿e owy wielki, cyfrowy X zosta³ stworzony przy pomocy funkcji tabular.
+
+\newpage
+
+\section{Grafika wektorowa}\label{sec:grafika_wektorowa}
+\textbf{Grafika wektorowa (obiektowa)} – jeden z dwóch podstawowych rodzajów grafiki komputerowej, w której obraz opisany jest za pomoc¹ figur geometrycznych (w przypadku grafiki dwuwymiarowej) lub bry³ geometrycznych (w przypadku grafiki trójwymiarowej), umiejscowionych w matematycznie zdefiniowanym uk³adzie wspó³rzêdnych, odpowiednio dwu- lub trójwymiarowym. Drugim z podstawowych typów grafiki komputerowej jest grafika rastrowa.
+
+\begin{picture}(60,40)
+\put(30,-200){\line(1,0){300}}
+\put(30,-200){\line(2,1){300}}
+\put(30,-200){\line(3,2){300}}
+\end{picture}
+
+Poni¿ej widzimy przyk³ad trzech wektorów.
+
+\newpage
+
+\section{Podsumowanie}\label{sec:podsumowanie}
+Matematyka zawiera w sobie wiele interesuj¹cych, godnych poznania rejonów. Warto wiêc \textbf{zacz¹æ j¹ poznawaæ} i \textbf{stale rozwijaæ swoj¹ wiedzê} w tej dziedzinie nauk œcis³ych.
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=125mm]{end-title-590.jpg}
+\caption{Koniec\label{obraz_6}}
+\end{figure}
+
+Bardziej zainteresowanych poszerzeniem wiedzy matematycznej zachêcam do zapoznania siê równie¿ z innymi Ÿród³ami wiedzy. Dziêkujê za uwagê.
+\begin{center}
+$$_OO^OO_OO^OO_OO^OO_OO^OO_OO^OO_OO^OO_OO^OO_OO^OO_OO^OO_OO^OO_O(*v*)$$
+\end{center}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\begin{thebibliography}{1}
+\bibitem{wiki} Wikipedia,
+\textit{wybrane artyku³y},
+pl.wikipedia.org
+\bibitem{google} Wujek Google,
+\textit{wyszukane obrazki},
+google.pl
+\bibitem{ja} W³asna kreatywnoœæ,
+\textit{opracowanie tekstów},
+mój mózg.
+\end{thebibliography}
+
+\end{document}
